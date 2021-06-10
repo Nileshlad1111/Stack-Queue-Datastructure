@@ -3,6 +3,7 @@ package com.bridgelabz;
 public class MyLinkList <T> {
     public MyNode last;
     public MyNode start;
+    int size = 0;
 
     public MyLinkList() {
         this.start = null;
@@ -89,5 +90,7 @@ public class MyLinkList <T> {
     }
 
     public void printMyNode() {
+        System.out.println("My nodes" +start);
+        System.out.println("Size of linked list" +size);
     }
 }

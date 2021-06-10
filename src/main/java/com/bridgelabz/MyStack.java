@@ -18,4 +18,8 @@ public class MyStack {
     public MyNode peak() {
         return linkList.start;
     }
+
+    public MyNode pop() {
+        return linkList.RemoveAtStart();
+    }
 }
