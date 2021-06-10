@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-10T13:20:46" hostname="LAPTOP-DILI6N8Q" time="0.004">
+<testsuite name="com.bridgelabz.MyStackTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-06-10T13:29:02" hostname="LAPTOP-DILI6N8Q" time="0.012">
   <properties/>
   <testcase name="Provide3Number_whenDelete_shouldDeleteFromStart" classname="com.bridgelabz.MyStackTest" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="Provide3Number_WhenAddedToStackInSequence_TestCaseShouldPass" classname="com.bridgelabz.MyStackTest" time="0.005"/>
+  <testcase name="Provide3Number_WhenPop_shouldPoppedFromLast" classname="com.bridgelabz.MyStackTest" time="0.002"/>
+  <testcase name="Provide3Number_WhenAddedToStackNotInSequence_TestCaseShouldPass" classname="com.bridgelabz.MyStackTest" time="0.001"/>
+  <testcase name="Provide3Number_whenAddedInSequence_TestCaseShouldPass" classname="com.bridgelabz.MyStackTest" time="0.0"/>
+  <system-out><![CDATA[My nodesMyNode{next=MyNode{next=MyNode{next=null, key=null}, key=null}, key=null}
+Size of linked list0
+My nodesMyNode{next=MyNode{next=MyNode{next=null, key=null}, key=null}, key=null}
+Size of linked list0
+My nodesMyNode{next=MyNode{next=null, key=null}, key=null}
+Size of linked list0
+My nodesMyNode{next=null, key=null}
+Size of linked list0
+My nodesnull
+Size of linked list0
+My nodesMyNode{next=MyNode{next=MyNode{next=null, key=null}, key=null}, key=null}
+Size of linked list0
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

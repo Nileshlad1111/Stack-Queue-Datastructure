@@ -81,5 +81,22 @@ public class MyStackTest {
 
         Assert.assertEquals(firstNode, peek);
     }
+
+    @Test
+    public void Provide3Number_whenDelete_shouldDeleteFromStart()
+    {
+        MyQueue myQueue = new MyQueue();
+        MyNode<Integer> firstNode = new MyNode<>(70);
+        MyNode<Integer> secondNode = new MyNode<>(30);
+        MyNode<Integer> thirdNode = new MyNode<>(56);
+
+        myQueue.enqueue(firstNode);
+        myQueue.enqueue(secondNode);
+        myQueue.enqueue(thirdNode);
+
+        MyNode dequeue = myQueue.dequeue();
+
+        Assert.assertEquals(firstNode, dequeue);
+    }
 }
 
