@@ -4,3 +4,5 @@ com/bridgelabz/MyStack.java
  com.bridgelabz.MyStack
 com/bridgelabz/MyLinkList.java
  com.bridgelabz.MyLinkList
+com/bridgelabz/MyQueue.java
+ com.bridgelabz.MyQueue
